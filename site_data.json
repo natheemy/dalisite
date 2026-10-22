@@ -1,0 +1,289 @@
+{
+  "header": {
+    "logo": "pixkit",
+    "logoSubtitle": "Dark",
+    "navLinks": [
+      {
+        "label": "Home",
+        "href": "#",
+        "hasDropdown": false
+      },
+      {
+        "label": "Pages",
+        "href": "#",
+        "hasDropdown": true
+      },
+      {
+        "label": "Components",
+        "href": "#",
+        "hasDropdown": true
+      },
+      {
+        "label": "Blog",
+        "href": "#blog",
+        "hasDropdown": true
+      },
+      {
+        "label": "Changelog",
+        "href": "#",
+        "badge": "New"
+      }
+    ],
+    "ctaButton": {
+      "label": "Purchase",
+      "href": "https://store.pixfort.com/buy/46c92bab-2899-43f1-99c6-b4bc8dd1408f"
+    }
+  },
+  "hero": {
+    "badge": "New Release",
+    "headline": "Turn your website into a true industry leader.",
+    "subheadline": "A Complete kit to Create Stunning Websites",
+    "description": "Create beautiful websites in no time with pixfort Framer Kit.",
+    "cta1": {
+      "label": "Explore Features",
+      "href": "#features"
+    },
+    "cta2": {
+      "label": "Play Video",
+      "icon": "play",
+      "href": "#"
+    },
+    "floatingTags": [
+      "Shapes",
+      "Atoms",
+      "Cubes",
+      "Stars",
+      "Flags"
+    ],
+    "interactiveCanvas": "particles"
+  },
+  "banner": {
+    "badge": "New",
+    "text": "Our new Framer template is now available for sale!",
+    "button": {
+      "label": "Purchase Now",
+      "href": "https://store.pixfort.com/buy/46c92bab-2899-43f1-99c6-b4bc8dd1408f"
+    }
+  },
+  "features": {
+    "badge": "Advanced Features",
+    "title": "Embrace the modern design transition",
+    "description": "Drive your business ahead by drawing in new customers across multiple platforms.",
+    "cta": {
+      "label": "View Features",
+      "href": "#"
+    },
+    "items": [
+      {
+        "title": "Fully Secure",
+        "desc": "Every component in pixkit is meticulously crafted for user interaction.",
+        "icon": "shield"
+      },
+      {
+        "title": "Stay Connected",
+        "desc": "Begin our journey to build supremely outstanding websites.",
+        "icon": "wifi"
+      },
+      {
+        "title": "Pixel-Perfect",
+        "desc": "Initiate our voyage to engineer flawlessly excellent web pages.",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Management controls",
+        "desc": "Propel your business forward by attracting fresh customers on various platforms.",
+        "icon": "sliders"
+      },
+      {
+        "title": "Online Access",
+        "desc": "Commence our journey to develop intricately perfect websites.",
+        "icon": "globe"
+      },
+      {
+        "title": "Easy to use",
+        "desc": "Drive your business ahead by drawing in customers across multiple platforms.",
+        "icon": "check"
+      }
+    ]
+  },
+  "interactiveTabs": {
+    "badge": "Premium Quality",
+    "title": "Capture the Future with Your Website",
+    "subtitle": "Join our quest to create impeccably detailed web pages.",
+    "tabs": [
+      {
+        "id": "tab-features",
+        "label": "Features",
+        "tag": "Advacned Features",
+        "headline": "Turn your website into a true industry leader.",
+        "description": "Explore the new frontier of web design with tools that empower you to create visually stunning and technically robust digital experiences.",
+        "cta": "View Features",
+        "image": "https://framerusercontent.com/images/jUgCO3oA95jH4VcHSICrw71Rqc.png?width=445&height=437"
+      },
+      {
+        "id": "tab-advanced",
+        "label": "Advanced",
+        "tag": "Advanced Systems",
+        "headline": "Simplify Your Workflow",
+        "description": "Built with cutting-edge technology, our platform adapts to your needs and grows with your business.",
+        "cta": "Explore Tools",
+        "image": "https://framerusercontent.com/images/OPJDn7HftNNuzLN2Ge8Ckp0opqw.png?width=174&height=180"
+      },
+      {
+        "id": "tab-services",
+        "label": "Services",
+        "tag": "Modern Services",
+        "headline": "The Future of Software",
+        "description": "Collaborate with your team in real time, streamline your processes, and take control of your workflow.",
+        "cta": "View Services",
+        "image": "https://framerusercontent.com/images/HjgF6Ft43AJUXLW9bugWqd3Uc.png?width=1200&height=900"
+      }
+    ]
+  },
+  "stats": {
+    "title": "Trusted by 30.000+ Businesses Worldwide",
+    "avatars": [
+      "https://framerusercontent.com/images/A8kV9PZhfbAF9zQQGYNog73BVvI.webp",
+      "https://framerusercontent.com/images/njnx6m4sszDxdR63qMKU7JwQEo.webp",
+      "https://framerusercontent.com/images/RsruacpjdFewW5HWISsPU1egpRI.webp"
+    ],
+    "items": [
+      {
+        "stat": "50%",
+        "text": "Innovative design tools can thrust your business ahead by engaging new customers across new platforms."
+      },
+      {
+        "stat": "30K+",
+        "text": "Revolutionary design instruments can propel your enterprise forward by attracting novel clients on platforms."
+      }
+    ]
+  },
+  "servicesCards": {
+    "badge": "Modern Services",
+    "title": "Harness the Power of Elite Design",
+    "subtitle": "Embark on our journey to craft flawlessly intricate online sites.",
+    "cta": "Check all services",
+    "cards": [
+      {
+        "image": "https://framerusercontent.com/images/HjgF6Ft43AJUXLW9bugWqd3Uc.png?width=1200&height=900",
+        "title": "Advanced Communication",
+        "desc": "Every component in pixkit is meticulously crafted for user interaction.",
+        "link": "Learn more"
+      },
+      {
+        "image": "https://framerusercontent.com/images/lDTiuRBRecGrU6Pzmc2yUvrIg4s.png?width=1200&height=900",
+        "title": "Premium Assets",
+        "desc": "Commence our journey to develop intricately perfect websites.",
+        "link": "View services"
+      },
+      {
+        "image": "https://framerusercontent.com/images/fmL6JbC3M9f1wDri3u8QiKNhXY.png?width=1200&height=900",
+        "title": "Acquire New Customers",
+        "desc": "Initiate our voyage to engineer flawlessly excellent web pages.",
+        "link": "View pricing"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Presale Questions",
+    "title": "Step into the Future of Digital Engagement",
+    "subtitle": "Embark on our endeavor to curate flawless internet sites.",
+    "questions": [
+      {
+        "q": "How to create a beautiful website?",
+        "a": "With pixfort's offerings, it's effortless to build impactful, beautiful websites. Our top-notch digital solutions aim to simplify the process of designing sites."
+      },
+      {
+        "q": "What type of services do you provide?",
+        "a": "We offer complete web development, UI/UX design systems, component libraries, responsive frameworks, and digital asset kits optimized for production."
+      },
+      {
+        "q": "Can I use all the available components?",
+        "a": "Yes! Every single component, layout, template block, and animation preset is 100% unlocked and customizable for all your commercial and personal projects."
+      },
+      {
+        "q": "What's included in my purchase?",
+        "a": "Your purchase includes lifetime access to all page layouts, responsive components, regular template updates, free documentation, and priority customer support."
+      }
+    ]
+  },
+  "blog": {
+    "badge": "Articles",
+    "title": "Make Your Website an Industry Benchmark",
+    "subtitle": "Peruse our blog posts to kick off your journey with our program.",
+    "cta": "View Blog",
+    "posts": [
+      {
+        "category": "Getting Started",
+        "title": "Starting and Growing a Career in Web Design",
+        "date": "April 8, 2026",
+        "image": "https://framerusercontent.com/images/02vFjug1Pdvn83qpjsxpGsV4.jpg?width=1200&height=800",
+        "link": "Read more"
+      },
+      {
+        "category": "Articles",
+        "title": "Create a Landing Page That Performs Great",
+        "date": "March 15, 2026",
+        "image": "https://framerusercontent.com/images/9KaLpX336KWnNjpIS3903gd7rA.jpg?width=1200&height=800",
+        "link": "Read more"
+      },
+      {
+        "category": "FAQ",
+        "title": "How Can Designers Prepare for the Future?",
+        "date": "February 28, 2026",
+        "image": "https://framerusercontent.com/images/Yaaw84I9JCFcQIDD5G34LAopiM.jpg?width=1200&height=800",
+        "link": "Read more"
+      },
+      {
+        "category": "Tips",
+        "title": "Building a Navigation Component with Variables",
+        "date": "February 6, 2026",
+        "image": "https://framerusercontent.com/images/jLQ85cDvY1iozNNZlxlp8oLNUjY.jpg?width=1200&height=800",
+        "link": "Read more"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "title": "Switch sides. Join us.",
+    "description": "Explore an entirely fresh approach to web development with pixfort kit.",
+    "button": "Purchase Now"
+  },
+  "footer": {
+    "tagline": "We create high-quality digital products to aid you in building stunning websites.",
+    "columns": [
+      {
+        "title": "Demos",
+        "links": [
+          "Original",
+          "Agency",
+          "SaaS",
+          "Creative",
+          "Marketing",
+          "Landing",
+          "Software"
+        ]
+      },
+      {
+        "title": "Features",
+        "links": [
+          "Overview",
+          "Pages",
+          "Components",
+          "Blog",
+          "Portfolio",
+          "Help Center",
+          "Changelog"
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Newsletter",
+      "desc": "Discover the latest handpicked blog entries to get started.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "disclaimer": "By signing up you agree to our privacy policy"
+    },
+    "copyright": "pixfort © All rights reserved",
+    "madeWith": "Made with 🤍 on 🌎 Earth"
+  }
+}
