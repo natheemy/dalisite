@@ -1,12 +1,17 @@
-// Interactive Logic for Pixkit Agency clone
-
-document.addEventListener('DOMContentLoaded', () => {
+function runInit() {
   initNavbarScrollMorph();
   initHeroGlobe();
   initTabs();
   initFAQAccordion();
   initSmoothScroll();
-});
+  initScrollReveal();
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', runInit);
+} else {
+  runInit();
+}
 
 // Dynamic Navbar Morph on Scroll
 function initNavbarScrollMorph() {
@@ -191,5 +196,38 @@ function initSmoothScroll() {
         }
       }
     });
+  });
+}
+
+// Scroll Reveal Animations for elements entering viewport
+function initScrollReveal() {
+  const elements = document.querySelectorAll(
+    '.feature-card, .service-card, .stat-card, .tab-content-grid, .faq-accordion-item, .blog-card, .pricing-card, .banner-badge, .section-header, .testimonial-card, .hero-content > *'
+  );
+
+  if (!('IntersectionObserver' in window)) {
+    elements.forEach(el => el.classList.add('is-revealed'));
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  elements.forEach((el, index) => {
+    el.classList.add('reveal-on-scroll');
+    const delay = (index % 4) * 0.08;
+    if (delay > 0) {
+      el.style.transitionDelay = `${delay}s`;
+    }
+    observer.observe(el);
   });
 }
